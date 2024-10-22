@@ -33,7 +33,7 @@
 
   &-item {
 
-    background-image: url('/assets/img/wadding.png');
+    background-image: url('../assets/img/wadding.png');
 
     background-repeat: no-repeat;
     background-position: center center;
@@ -83,27 +83,22 @@
   }
 
   .scene {
-    background-image: url("../../assets/img/estrada.png");
-
+    background-image: url("../assets/img/estrada.png");
   }
 
   .food {
-    background-image: url("../../assets/img/food.png");
-    background-image: url();
+    background-image: url("../assets/img/food.png");
   }
 
   .family {
-    background-image: url("../../assets/img/family.png");
-
+    background-image: url("../assets/img/family.png");
   }
 
   .children {
-    background-image: url("../../assets/img/baby.png");
-
+    background-image: url("../assets/img/baby.png");
   }
 
   .pregnancy {
-    background-image: url("../../assets/img/pregnat.png");
-
+    background-image: url("../assets/img/pregnancy.png");
   }
 }
