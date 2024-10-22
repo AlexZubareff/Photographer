@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+padding: 10px 0;
+
+  nav {
+    flex-grow: 1;
+  }
+
+
+  &-logo {
+    margin-left: 140px;
+
+    p {
+      @include font(28px, 700, 32px, 0%, left, $black);
+    }
+  }
+
+
+
+  &-nav {
+    &__list {
+      display: flex;
+      justify-content: end;
+      margin-right: 32px;
+      gap: 40px;
+    }
+
+    &__item {
+      a {
+        color: $black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-btn {
+    @include btn($gray, transparent, 6px, $black, 15px, 12px, 12px);
+    margin-right: 140px;
+  }
+}

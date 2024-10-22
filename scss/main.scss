@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+@import 'core';
+
+@import 'blocks/header.scss';
+@import 'blocks/intro.scss';
+@import 'blocks/photographing.scss';
+@import 'blocks/benefit.scss';
+@import 'blocks/order.scss';
+@import 'blocks/feedback.scss';
