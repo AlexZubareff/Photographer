@@ -32,10 +32,8 @@
   }
 
   &-item {
-    // max-width: 350px;
-    // height: 100%;
 
-    background-image: url(../../assets/img/wadding.png);
+    background-image: url('../../assets/img/wadding.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -90,7 +88,7 @@
 
   .food {
     background-image: url("../../assets/img/food.png");
-background-image: url();
+    background-image: url();
   }
 
   .family {
