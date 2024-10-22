@@ -291,19 +291,6 @@ body {
   background-size: cover;
   padding: 120px 165px;
 }
-.benefit::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: -1;
-}
 .benefit__text {
   font-size: 28px;
   font-weight: 500;
@@ -515,6 +502,95 @@ body {
   margin-bottom: 16px;
   max-width: 280px;
   color: #8f8d8d;
+}
+
+.pricing-plans {
+  position: relative;
+  background-image: url("../assets/img/prices-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 80px 165px;
+}
+.pricing-plans__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+  color: rgb(255, 255, 255);
+}
+.pricing-plans__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 64px;
+  color: rgb(255, 255, 255);
+}
+.pricing-plans-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.pricing-plans-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  width: 286px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.pricing-plans-item__title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #F86624;
+  margin-bottom: 10px;
+}
+.pricing-plans-item__price {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 33px;
+}
+.pricing-plans-item__list li {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-left: 30px;
+  margin-bottom: 8px;
+}
+.pricing-plans-item__list li:last-child {
+  margin-bottom: 28px;
+}
+.pricing-plans-item__list .check-marker {
+  background: url("../../assets/ico/stroke.svg") no-repeat left center;
+}
+.pricing-plans-item__list .close-marker {
+  background: url("../../assets/ico/close.svg") no-repeat left center;
+}
+.pricing-plans-item__btn {
+  border: 1px solid #F86624;
+  background-color: #F86624;
+  border-radius: 36px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 14px 14px;
+  cursor: pointer;
+  padding-left: 112px;
+  padding-right: 112px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
