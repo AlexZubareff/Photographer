@@ -136,7 +136,7 @@ body {
 
 .intro {
   position: relative;
-  background-image: url(../../assets/img/image.png);
+  background-image: url("../../assets/img/image.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -268,24 +268,25 @@ body {
   text-align: center;
 }
 .photographing .scene {
-  background-image: url(../../assets/img/estrada.png);
+  background-image: url("../../assets/img/estrada.png");
 }
 .photographing .food {
-  background-image: url(../../assets/img/food.png);
+  background-image: url("../../assets/img/food.png");
+  background-image: url();
 }
 .photographing .family {
-  background-image: url(../../assets/img/family.png);
+  background-image: url("../../assets/img/family.png");
 }
 .photographing .children {
-  background-image: url(../../assets/img/baby.png);
+  background-image: url("../../assets/img/baby.png");
 }
 .photographing .pregnancy {
-  background-image: url(../../assets/img/pregnat.png);
+  background-image: url("../../assets/img/pregnat.png");
 }
 
 .benefit {
   position: relative;
-  background-image: url(../../assets/img/benefits.png);
+  background-image: url("../../assets/img/benefits.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
