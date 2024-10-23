@@ -575,10 +575,10 @@ body {
   margin-bottom: 28px;
 }
 .pricing-plans-item__list .check-marker {
-  background: url("../../assets/ico/stroke.svg") no-repeat left center;
+  background: url("../assets/ico/stroke.svg") no-repeat left center;
 }
 .pricing-plans-item__list .close-marker {
-  background: url("../../assets/ico/close.svg") no-repeat left center;
+  background: url("../assets/ico/close.svg") no-repeat left center;
 }
 .pricing-plans-item__btn {
   border: 1px solid #F86624;
