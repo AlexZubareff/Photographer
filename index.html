@@ -47,23 +47,23 @@
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
       <div class="photographing-item pregnancy">
-        <p class="photographing-item__title">Свадебная фотосессия</p>
+        <p class="photographing-item__title">Фотографии беременных</p>
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
       <div class="photographing-item children">
-        <p class="photographing-item__title">Свадебная фотосессия</p>
+        <p class="photographing-item__title">Детская фотосъемка</p>
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
       <div class="photographing-item family">
-        <p class="photographing-item__title">Свадебная фотосессия</p>
+        <p class="photographing-item__title">Семейная фотосессия</p>
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
       <div class="photographing-item food">
-        <p class="photographing-item__title">Свадебная фотосессия</p>
+        <p class="photographing-item__title">Фотографии еды</p>
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
       <div class="photographing-item scene">
-        <p class="photographing-item__title">Свадебная фотосессия</p>
+        <p class="photographing-item__title">Эстрадная фотосъемка</p>
         <p class="photographing-item__price">от 3000 ₽</p>
       </div>
     </div>
@@ -222,6 +222,58 @@
       </div>
     </div>
   </section>
+  <!-- Седьмой экран -->
+  <section class="detailed-order wrap">
+    <div class="wrap-content">
+      <h2 class="detailed-order__title">Закажи съемку</h2>
+      <p class="detailed-order__text">Закажи свою уникальную съемку прямо сейчас. Просто заполните форму и я свяжусь с
+        вами</p>
+      <div class="detailed-order-form">
+        <input type="text" class="detailed-order-form__input" placeholder="Ваше имя">
+        <input type="email" class="detailed-order-form__input" placeholder="Электронная почта">
+        <input type="tel" class="detailed-order-form__input" placeholder="+7 (000) 000-0000">
+        <p class="detailed-order__text-radio">Выберите тип съемки</p>
+
+        <div class="detailed-order-form__radio">
+          <input id="radio-1" type="radio" name="radio" value="1" checked>
+          <label for="radio-1">Свадебная фотосессия</label>
+        </div>
+
+        <div class="detailed-order-form__radio">
+          <input id="radio-2" type="radio" name="radio" value="2">
+          <label for="radio-2">Семейная фотосессия</label>
+        </div>
+
+        <div class="detailed-order-form__radio">
+          <input id="radio-3" type="radio" name="radio" value="3">
+          <label for="radio-3">Детская фотосессия</label>
+        </div>
+        <div class="detailed-order-form__radio">
+          <input id="radio-4" type="radio" name="radio" value="4">
+          <label for="radio-4">Фотосессия беременных</label>
+        </div>
+        <div class="detailed-order-form__radio">
+          <input id="radio-5" type="radio" name="radio" value="5">
+          <label for="radio-5">Эстрадная фотосессия</label>
+        </div>
+        <div class="detailed-order-form__radio">
+          <input id="radio-6" type="radio" name="radio" value="6">
+          <label for="radio-6">Фотографии еды</label>
+        </div>
+        <input type="button" class="detailed-order-form__button" value="Оставить заявку">
+      </div>
+      <p class="detailed-order__conditions">
+        Оставляя заявку, вы соглашаетесь на
+        <span class="detailed-order__conditions--accent-orange">обработку персональных данных</span>
+        и с
+        <span class="detailed-order__conditions--accent-orange">условиями бронирования счёта</span>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- footer экран -->
+
   <footer class="footer wrap">
     <div class="footer__content">
       <div class="footer-social">
@@ -229,7 +281,7 @@
           <img class="footer-social__link-icon" src="./assets/ico/Facebook.svg" alt="facebook" />
         </a>
         <a href="/">
-          <img class="footer-social__link-icon"  src="./assets/ico/Instagram.svg" alt="twitter" />
+          <img class="footer-social__link-icon" src="./assets/ico/Instagram.svg" alt="twitter" />
         </a>
         <a href="/">
           <img class="footer-social__link-icon" src="./assets/ico/Twitter.svg" alt="instagram" />
@@ -252,7 +304,9 @@
           <a href="" class="footer-menu-list__link">Контакты</a>
         </li>
       </ul>
-      <div class="footer-copyright"><p>&copy; 2024 Фотограф</p></div>
+      <div class="footer-copyright">
+        <p>&copy; 2024 Фотограф</p>
+      </div>
     </div>
   </footer>
 

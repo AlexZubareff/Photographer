@@ -38,11 +38,15 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 242px 32px 32px;
     position: relative;
-
     border-radius: 16px;
+    width: 350px;
+    height: 380px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 
     &::before {
       content: '';
@@ -56,8 +60,6 @@
       bottom: 0;
       background-color: rgba(0, 0, 0, .2);
       border-radius: 16px;
-
-
     }
 
 
@@ -68,8 +70,8 @@
       letter-spacing: 0%;
       text-align: center;
 
-      max-width: 286px;
       padding-bottom: 10px;
+      max-width: 286px;
     }
 
     &__price {
@@ -78,6 +80,8 @@
       line-height: 24px;
       letter-spacing: 0%;
       text-align: center;
+      max-width: 286px;
+      margin-bottom: 32px;
     }
 
   }
